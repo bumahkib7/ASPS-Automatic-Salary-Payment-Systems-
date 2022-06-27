@@ -21,7 +21,7 @@ public class AspsApplication {
         Employee employee = new Employee();
         employee.setFullname("John Doe");
         employee.setEmail("johndoe1@gmail.com");
-        employee.setBankDetails(new BankDetails("Sparkasse", "DE23_123434 323", "Koln bonn", "CLOSED1234"));
+        employee.setBankDetails(new BankDetails("Sparkasse", "DE23_123434 323", "Koln bonn", "COLSDE1234"));
         employee.setSalary(new Salary(BigInteger.valueOf(100000), "EUR"));
     };
 
