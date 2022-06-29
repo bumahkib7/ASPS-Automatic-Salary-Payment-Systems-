@@ -1,5 +1,5 @@
 # ASPS-Automatic-Salary-Payment-Systems-
-This program automates the payment of  a Company's employees and Creats
+This program automates the payment of  a Company's employees and checks if they're eligible for a bonus or a pay raise according to employee level
 # Getting Started
 
 ### Reference Documentation
