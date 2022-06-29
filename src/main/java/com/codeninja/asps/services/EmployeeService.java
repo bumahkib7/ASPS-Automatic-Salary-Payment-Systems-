@@ -6,10 +6,13 @@ import com.codeninja.asps.models.Salary;
 import com.codeninja.asps.repo.EmployeeDaoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import java.math.BigInteger;
 import java.util.Objects;
 import java.util.Optional;
+
+@Service
 
 public class EmployeeService implements EmployeeServiceInterface {
 
@@ -63,6 +66,8 @@ public class EmployeeService implements EmployeeServiceInterface {
         log.info("Asking for employee bank details: {}", employee);
 
     }
+
+
 
     }
 

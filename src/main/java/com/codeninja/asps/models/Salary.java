@@ -1,14 +1,15 @@
 package com.codeninja.asps.models;
 
-import com.codeninja.asps.config.BonusEligibilityCheck;
-import com.codeninja.asps.config.SalaryCalculator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.math.BigInteger;
+
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Component
 public class Salary {
 
@@ -18,8 +19,7 @@ public class Salary {
     private boolean paid;
 
 
-
-    public Salary(BigInteger i,     String eur) {
+    public Salary(BigInteger i, String eur) {
         this.amount = i;
         this.eur = eur;
     }

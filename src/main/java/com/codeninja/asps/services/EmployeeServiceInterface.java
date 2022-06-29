@@ -13,4 +13,6 @@ public interface EmployeeServiceInterface {
 
     void askForEmployeeBankDetails(Employee employee);
 
+    //
+
 }

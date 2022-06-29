@@ -24,8 +24,7 @@ public class EmployeeRowMapper implements RowMapper<Employee> {
         );
 
 
-    };
-
+    }
 
 
 }

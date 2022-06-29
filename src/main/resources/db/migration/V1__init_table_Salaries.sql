@@ -1,0 +1,1 @@
+CREATE TABLE salaries (id SERIAL PRIMARY KEY, employee_id INTEGER, salary INTEGER);
