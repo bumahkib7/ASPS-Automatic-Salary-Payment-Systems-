@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--use semantic HTML5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.js"></script>
+</head>
+<body>
+<!--use semantic HTML5 -->
+<!--create and design a  homepage -->
+<div class="ui container">
+    <div class="ui secondary pointing menu">
+        <a class="item" href="index.php">
+            Home
+        </a>
+        <a class="item" href="about.php">
+            About
+        </a>
+        <a class="item" href="contact.php">
+            Contact
+        </a>
+    </div>
+    <div class="ui segment">
+        <h1>About</h1>
+        <p>
+            This is a simple web application that allows an admin to pay employees Automatically and keep track of the
+            employees' pay.
+
+        </p>
+        <details>
+            <summary>
+                <h3>
+                    <strong>
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        About the Application
+                    </strong>
+                </h3>
+            </summary>
+            <p>
+                This application was created by Bukhari <a href="mailto:
+                <?php
+                echo $email;
+                ?>
+                ">
+                <?php
+                    echo $name;
+                    ?>
+            </a>
+
+            </p>
+        </details>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
