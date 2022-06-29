@@ -2,12 +2,14 @@ package com.codeninja.asps.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 @Data
 @AllArgsConstructor
+@Component
 public class Employee{
 
-    private long id;
+    private  long EmployeeId;
     private String Fullname;
     private String Email;
     private BankDetails BankDetails;
@@ -15,8 +17,14 @@ public class Employee{
 
 
     public Employee() {
-        this.id = id++;
+        EmployeeId++;
         this.Fullname = Fullname;
         this.Email = Email;
     }
+
+
+
+
+
+
 }
