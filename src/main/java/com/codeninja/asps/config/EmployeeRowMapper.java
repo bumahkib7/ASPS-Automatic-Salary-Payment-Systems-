@@ -3,11 +3,13 @@ package com.codeninja.asps.config;
 import com.codeninja.asps.models.BankDetails;
 import com.codeninja.asps.models.Employee;
 import com.codeninja.asps.models.Salary;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+@Configuration
 public class EmployeeRowMapper implements RowMapper<Employee> {
 
 
